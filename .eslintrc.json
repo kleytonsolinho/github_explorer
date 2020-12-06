@@ -30,6 +30,7 @@
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
+    "react/jsx-one-expression-per-line": "off",
     "no-use-before-define": "off",
     "prettier/prettier": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -42,6 +43,14 @@
       }
     ],
     "import/prefer-default-export": "off",
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
